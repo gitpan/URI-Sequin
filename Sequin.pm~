@@ -1,4 +1,4 @@
-# Sequin v1.1.1
+# Sequin v1.1
 #
 # by Peter Sergeant <pete@grou.ch>
 #
@@ -15,7 +15,7 @@ package URI::Sequin;
 use vars qw(@ISA $VERSION @EXPORT_OK %log_types);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(se_extract log_extract %log_types key_extract);
-$VERSION = 1.1.1;
+$VERSION = 1.1;
 
 
 

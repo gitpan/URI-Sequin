@@ -1,10 +1,10 @@
-# Sequin v1.1.1
+# Sequin v1.1.2
 #
-# by Peter Sergeant <pete@grou.ch>
+# by Peter Sergeant <cpan@clueball.com>
 #
 # A module for extracting and parsing search engine URLs from
 # server referrer files. Proper usage information is in the
-# 
+# README file 
 
 
 # Magic Package Stuff
@@ -15,7 +15,7 @@ package URI::Sequin;
 use vars qw(@ISA $VERSION @EXPORT_OK %log_types);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(se_extract log_extract %log_types key_extract);
-$VERSION = 1.1.1;
+$VERSION = '1.1.2';
 
 
 

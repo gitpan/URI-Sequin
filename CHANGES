@@ -1,5 +1,9 @@
 Revision history for Perl extension URI::Sequin.
 
+1.1.2 Mon Oct 07 09:44:00 2002
+	- Removed some temp files, changed the license
+		to artistic, and updated copyright date
+
 1.1.1 Tue Oct 30 00:00:00 2001
 	- Changed unzip directory. oooops
 

@@ -17,9 +17,9 @@
  ==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
 
   [S]earch   [E]ngine   [Q]uery   [U]rl   [I]nformation   [N]oter
-           Version 1.1.1 by Peter Sergeant (30-10-01)
+           Version 1.1.2 by Peter Sergeant (07-10-02)
 
-              ( reconsituted for your pleasure )
+                  ( great tasting new formula! ) 
 
 SEQUIN is intended to extract the keywords used and the name of a
 search engine given the a line from a logfile that contains a
@@ -30,14 +30,12 @@ on a preset list of search engines and thus currently works with
 almost every search engine URL the author could get his hands on.
 
 Comments are appreciated - if you find a search engine with which
-it does not work, I would be truly fascinated. Stay happy and 
-keep drinking coffee.
+it does not work, I would be truly fascinated. 
 
 Included:
 =-=-=-=-=
 	README           - This file
 	CHANGES          - List of changes through revisions
-	LICENSE	         - A copy of the GPL
 	MANIFEST         - A list of what's included to keep MAKE happy
 	Sequin.pm  	 - The module itselfy
 	Example.pl 	 - Some working code to play with
@@ -46,30 +44,9 @@ Included:
 	ref1.log	 - Some sample URLs to play with
 	ref2.log	 - Some logfile lines to play with
 
-I seem to remember in my Windows days becoming very upset that I
-could never install modules easily, due to a lack of a decent
-make program. To install this module is easy on Windows. Go to
-the Perl installation directory, and find lib/URI or /lib/site/URI
-or site/lib/URI (any will do, just find one that exists) and copy
-the Sequin.pm file over.
-
-If you have any questions, the author can be emailed, at
-pete@grou.ch or is often sighted on EFNet or MAGNet as sheriff_p.
+Copyright (c) 2000 - 2002, Peter Sergeant. All Rights Reserved.
+      This module is free software. It may be used, redistributed
+      and/or modified under the terms of the Perl Artistic License
+      (see http://www.perl.com/perl/misc/Artistic.html)
 
 
-And now for something completely different, and very dull:
-
-Legal# Copyright (C) 2001 Peter Sergeant (pete@grou.ch)
-Legal# This program is free software; you can redistribute it and/or
-Legal# modify it under the terms of the GNU General Public License as
-Legal# published by the Free Software Foundation; either version 2 of
-Legal# the License, or (at your option) any later version.
-Legal# This program is distributed in the hope that it will be
-Legal# useful, but WITHOUT ANY WARRANTY; without even the implied
-Legal# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
-Legal# PURPOSE.  See the GNU General Public License for more details.
-Legal# You should have received a copy of the GNU General Public
-Legal# License along with this program; if not, write to the Free
-Legal# Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
-Legal# MA 02111-1307 USA
-Legal# I am a fish.

@@ -17,7 +17,7 @@
  ==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
 
   [S]earch   [E]ngine   [Q]uery   [U]rl   [I]nformation   [N]oter
-           Version 1.1.2 by Peter Sergeant (07-10-02)
+           Version 1.2 by Peter Sergeant (01-09-03)
 
                   ( great tasting new formula! ) 
 
@@ -37,14 +37,14 @@ Included:
 	README           - This file
 	CHANGES          - List of changes through revisions
 	MANIFEST         - A list of what's included to keep MAKE happy
-	Sequin.pm  	 - The module itselfy
-	Example.pl 	 - Some working code to play with
+	Sequin.pm  	 		 - The module itselfy
+	Example.pl 	     - Some working code to play with
 	Makefile.pl      - What we make the makefile with
-	Test.pl		 - A test file to keep MAKE happy
-	ref1.log	 - Some sample URLs to play with
-	ref2.log	 - Some logfile lines to play with
+	Test.pl		       - A test file to keep MAKE happy
+	ref1.log	       - Some sample URLs to play with
+	ref2.log	       - Some logfile lines to play with
 
-Copyright (c) 2000 - 2002, Peter Sergeant. All Rights Reserved.
+Copyright (c) 2000 - 2003, Peter Sergeant. All Rights Reserved.
       This module is free software. It may be used, redistributed
       and/or modified under the terms of the Perl Artistic License
       (see http://www.perl.com/perl/misc/Artistic.html)

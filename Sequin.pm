@@ -15,7 +15,7 @@ package URI::Sequin;
 use vars qw(@ISA $VERSION @EXPORT_OK %log_types);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(se_extract log_extract %log_types key_extract);
-$VERSION = '1.1.2';
+$VERSION = '1.2';
 
 
 
@@ -193,8 +193,9 @@ sub se_extract {
 	}
 
 	# Return what we know.
+	# jm: allow HTTPS search engines too ;)
 
-	if ($search_engine_url !~ m!^http://!) {
+	if (defined $search_engine_url && $search_engine_url !~ m!^https?://!) {
 		$search_engine_url =~ s!^!http://!;
 	}
 
@@ -303,20 +304,28 @@ sub key_extract {
 		'palabras',
 		'DTqb1',
 		'request',
-		'keyword',  # Snap
+		'ShowMatch',    # syndic8
+		'keywords?',  # Snap, overture.com
 		'general',  # MetaCrawler, Go2Net
 		'key',      # Looksmart
-                'MetaTopic', # AJ
-                'rn',
+    'MetaTopic', # AJ
+		'query0', # elf8888.at, thx to http://www.tnl.net/
+		'queryString', # blogdigger.com
+		'serachfor', # mysearch.com dyslexia ;)
+	  'terms', # abcsearch.com
+	  'word', # baidu.com
+    'rn',
 		'mt',  # MSN, HotBot
-		'qt',  # Go, Infoseek
+		'qt',  # Go, Infoseek, search.com
 		'oq',
 		'dom', # Domainsurfer
-	        's',   # Excite
+	  's',   # Excite, blogsphere.us
 		'q',   # Altavista, Google, Dogpile, Evreka, Metafind
 		'p',   # Yahoo
 		't',
 		'qry',
+		'qkw', # dpxml, msxml
+		'qr',  # northernlight.com
 		'qu',
 		'kw',  # Sapo
 		'general',
@@ -324,7 +333,14 @@ sub key_extract {
 		'sc',  # Gohip
 		'szukaj',
 		'PA',
-	      	'cat'  # Dmoz
+		'MT',  # goo.ne.jp
+		'req', # dir.com
+		'k',   # galaxy.com
+	  'cat', # Dmoz
+		'u',   # Google translation
+		'va',  # search.yahoo.com
+		'K',   # srd.yahoo.com
+		'as_epq' # Google, sometimes. Advanced query maybe?
 
 	);
 

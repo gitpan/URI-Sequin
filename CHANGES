@@ -1,5 +1,10 @@
 Revision history for Perl extension URI::Sequin.
 
+1.2 Mon Sep 01 12:20 2003
+  - Added patches by Justin Mason that matched
+	    search-engine URLs beginning with https,
+			and matched more search-engine query fields.
+
 1.1.2 Mon Oct 07 09:44:00 2002
 	- Removed some temp files, changed the license
 		to artistic, and updated copyright date
